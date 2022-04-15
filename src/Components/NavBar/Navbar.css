@@ -1,0 +1,16 @@
+.navbar a{
+    color: #111;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.link{
+    padding: 10px 20px;
+}
+.link:hover{
+    border-radius: 50px;
+    background-color: #E51A4B;
+}
