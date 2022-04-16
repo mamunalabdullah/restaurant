@@ -1,0 +1,16 @@
+.Card{
+    width: 18rem;
+    border: none;
+}
+.card-body{
+    display: flex;
+}
+.card-body Button{
+    border: none;
+    background: #fff;
+    color: blue;
+}
+
+.card-icon{
+    margin-right: 15px;
+}

@@ -7,6 +7,8 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Blog from './Components/Blog/Blog';
 import Map from './Components/Map/Map';
+import WhyUs from './Components/Home/WhyUs/WhyUs';
+import Home from './Components/Home/Home/Home';
 
 function App() {
   return (
@@ -14,10 +16,12 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Signup />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/map" element={<Map />} />
+        <Route path="/whyus" element={<WhyUs />} />
       </Routes>
       <Footer />
     </div>
